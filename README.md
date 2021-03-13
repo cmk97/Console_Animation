@@ -22,7 +22,7 @@ You can run the animation with the code below. Pass a config object to the anima
 </script>
 ```
 
-The config object supports the following properties: 
+The config supports the following properties: 
 
 ```javascript
 var animationConfig = {	
@@ -33,3 +33,21 @@ var animationConfig = {
 	textColor: '#DDE3E8'
 }
 ```
+
+The animation object supports the three methods: 
+
+```javascript
+textAnimation.run() // this starts the animation
+```
+
+```javascript
+textAnimation.stop() // this stops the animation
+```
+
+```javascript
+textAnimation.reset(newText) // this clears the canvas and starts writing new text
+```
+
+## Demo
+
+You can view a demo of the project on [my website](link). 
