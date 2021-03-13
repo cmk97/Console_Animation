@@ -50,4 +50,4 @@ textAnimation.reset(newText) // this clears the canvas and starts writing new te
 
 ## Demo
 
-You can view a demo of the project on [my website](link). 
+You can view a demo of the project on [my website](links). 
