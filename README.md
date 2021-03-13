@@ -5,7 +5,7 @@ This is a simple canvas animation written in pure javascript that writes text as
 
 ## Running the animation
 
-To run the animation, create a canvas element and pass its id to the animation constructor. Include the text you want to write (it supports newlines!). 
+You can run the animation with the code below. Pass a config object to the animation constructor to customize it. 
 
 ```html
 <canvas id="animation" style="width:100%; height:500px"></canvas>
@@ -20,4 +20,16 @@ To run the animation, create a canvas element and pass its id to the animation c
 	})
 	textAnimation.run();
 </script>
+```
+
+The config object supports the following properties: 
+
+```javascript
+var animationConfig = {	
+	canvas: "Canvas-Element-ID",
+	text: "The text you want to animate",
+	background: "black", //background color
+	fontSize: 50, 
+	textColor: '#DDE3E8'
+}
 ```
