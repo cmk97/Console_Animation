@@ -13,7 +13,10 @@ To run the animation, create a canvas element and pass its id to the animation c
 <script type="text/javascript">
 	var textAnimation = new animation({
 		canvas: 'animation',
-		text: "Hello.\nI animate text\nsort of like a console\n"
+		text: "This program animates text\nlike it's being typed\ninto a console",
+		background: "blue",
+		fontSize: 50,
+		textColor: '#DDE3E8'
 	})
 	textAnimation.run();
 </script>

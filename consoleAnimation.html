@@ -5,13 +5,14 @@
 	<canvas id="animation" style="width:100%; height:500px"></canvas>
 	<script src="consoleAnimation.js"></script>
 	<script type="text/javascript">
-		var heroAnimation = new animation({
+		var textAnimation = new animation({
 			canvas: 'animation',
-			text: "Hello.\nI animate text\nsort of like a console\n",
+			text: "This program animates text\nlike it's being typed\ninto a console",
 			background: "blue",
-			fontSize: 50
+			fontSize: 50,
+			textColor: '#DDE3E8'
 		})
-		heroAnimation.run();
+		textAnimation.run();
 	</script>
 </body>
 </html>

@@ -56,7 +56,7 @@ var animation = (function(config){
 	}
 
 	_this.textElement = {
-		textColor: '#DDE3E8',
+		textColor: _this.config.textColor,
 		fontSize: _this.config.fontSize,
 		font: 'Monaco',
 		cursorHeight: 23,
